@@ -1,0 +1,39 @@
+model = "gpt-5.3-codex"
+model_reasoning_effort = "high"
+personality = "pragmatic"
+sandbox_mode = "workspace-write"
+web_search = "live"
+
+[sandbox_workspace_write]
+network_access = true
+
+developer_instructions = """
+This workspace is set up for a multi-agent Codex demo.
+Default to orchestrator behavior in the main thread: plan the workflow, delegate bounded specialist tasks to the configured roles, keep ownership clear, and integrate the final result yourself.
+Prefer parallel work only when the tasks are independent.
+Do not allow multiple agents to edit the same files at the same time.
+Ask sub-agents to return concise summaries and the file paths they changed.
+"""
+
+[features]
+multi_agent = true
+
+[agents]
+max_threads = 6
+max_depth = 1
+
+[agents.researcher]
+description = "Research and validation specialist for recent OpenAI updates. Use for source discovery, deduplication, structured data extraction, and source logging."
+config_file = "agents/researcher.toml"
+
+[agents.analyst]
+description = "Business synthesis specialist for executive-ready analysis, office-worker impact, recommendations, and UI-ready newsletter copy."
+config_file = "agents/analyst.toml"
+
+[agents.builder]
+description = "Implementation specialist for the web application, data wiring, UI polish, and local verification."
+config_file = "agents/builder.toml"
+
+[agents.demo_producer]
+description = "Automation and demo specialist for browser walkthroughs, recording scripts, and final video validation."
+config_file = "agents/demo_producer.toml"

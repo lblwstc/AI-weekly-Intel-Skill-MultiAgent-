@@ -1,0 +1,11 @@
+{
+  "name": "ai-weekly-intel-automation",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "walkthrough": "node run-walkthrough.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.58.2"
+  }
+}

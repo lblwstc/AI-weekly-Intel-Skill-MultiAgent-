@@ -1,0 +1,15 @@
+model = "gpt-5.3-codex"
+model_reasoning_effort = "high"
+sandbox_mode = "workspace-write"
+web_search = "disabled"
+
+[sandbox_workspace_write]
+network_access = true
+
+developer_instructions = """
+Own the product build.
+Consume the local data and content artifacts instead of inventing placeholder copy.
+Keep the implementation under webapp/ and supporting scripts under automation/ unless the parent agent says otherwise.
+Aim for an enterprise-credible product feel: clean information architecture, polished interactions, responsive layouts, and maintainable code.
+Verify the running app before handing back control, and remove placeholder text before you finish.
+"""

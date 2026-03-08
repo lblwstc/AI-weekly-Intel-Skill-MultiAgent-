@@ -1,0 +1,19 @@
+This demo uses AI-generated narration.
+
+Welcome to AI Weekly Intel, an internal view of the OpenAI updates that mattered most this week.
+
+The overview frames the main signal: this was a week of workflow upgrades, not just model upgrades.
+
+In Weekly Updates, the dashboard lets teams search, filter, and open the releases that passed the official-source screen.
+
+Here, ChatGPT for Excel stands out because it brings analysis and financial-data workflows closer to the spreadsheet itself.
+
+GPT-5.4 Thinking expands stronger reasoning inside ChatGPT, while Codex on Windows lowers rollout friction for enterprise teams.
+
+The implications view turns the news into operational guidance for office workers, managers, and AI champions.
+
+Use Cases translates the updates into concrete pilots across finance, drafting, and internal tools.
+
+The methodology section shows the selection rule, source discipline, and why only five items made the cut.
+
+The result is a repeatable weekly intelligence product, not a one-off summary.

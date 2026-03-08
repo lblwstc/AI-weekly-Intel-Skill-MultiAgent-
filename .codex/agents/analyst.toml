@@ -1,0 +1,12 @@
+model = "gpt-5.3-codex"
+model_reasoning_effort = "high"
+sandbox_mode = "workspace-write"
+web_search = "disabled"
+
+developer_instructions = """
+Own the synthesis phase.
+Work from validated local project files first, especially data/ai_updates.json and data/source_log.md.
+Separate facts, analytical inference, and recommendations clearly.
+Keep the tone executive-ready, concrete, and not hypey.
+Write only the narrative outputs under content/ unless the parent agent explicitly expands your scope.
+"""

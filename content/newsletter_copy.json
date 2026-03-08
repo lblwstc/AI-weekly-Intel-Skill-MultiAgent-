@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "title": "AI Weekly Intel",
+    "subtitle": "An internal intelligence view of the most important OpenAI product and capability updates for business teams.",
+    "window_label": "March 2-8, 2026",
+    "generated_label": "Official-source filter · high-signal business framing"
+  },
+  "hero": {
+    "kicker": "Weekly AI Intelligence",
+    "headline": "This week was about workflow upgrades, not just model upgrades.",
+    "subhead": "OpenAI paired a flagship model release with Excel integration, ChatGPT rollout changes, and broader Codex desktop availability. The common thread is lower friction between AI capability and actual office work."
+  },
+  "summary_cards": [
+    {
+      "label": "Validated updates",
+      "value": "5",
+      "detail": "Five official, in-window product or capability updates passed the source and scope filter."
+    },
+    {
+      "label": "Source types",
+      "value": "3",
+      "detail": "The brief pulls from official OpenAI announcements and Help Center release notes rather than third-party summaries."
+    },
+    {
+      "label": "Dominant theme",
+      "value": "Workflow fit",
+      "detail": "The strongest story is that OpenAI moved more value into familiar work surfaces such as ChatGPT, Excel, and enterprise desktops."
+    }
+  ],
+  "highlight_cards": [
+    {
+      "title": "GPT-5.4",
+      "blurb": "A flagship release that improves the ceiling for long-context, coding, and agentic business workflows."
+    },
+    {
+      "title": "Excel integration",
+      "blurb": "The spreadsheet-heavy core of office work now has a more direct path to AI-assisted analysis."
+    },
+    {
+      "title": "Windows Codex",
+      "blurb": "Enterprise deployment friction drops when the coding workflow reaches the desktop platform most companies already standardize on."
+    }
+  ],
+  "categories": [
+    "model-release",
+    "workflow-integration",
+    "chatgpt-rollout",
+    "desktop-expansion",
+    "enterprise-model-update"
+  ],
+  "use_cases": [
+    {
+      "title": "Executive memo drafting",
+      "source": "GPT-5.4",
+      "detail": "Use the flagship model for board notes, strategic options, and customer-facing summaries where narrative quality and long-context reasoning matter."
+    },
+    {
+      "title": "Workbook review and financial analysis",
+      "source": "ChatGPT for Excel + financial data",
+      "detail": "Shorten the loop between workbook review and decision support by moving from spreadsheet data to narrative commentary inside the same workflow."
+    },
+    {
+      "title": "Windows-based Codex pilot",
+      "source": "Codex app on Windows",
+      "detail": "Run an internal coding or automation pilot on the operating system most enterprise technical teams already use."
+    },
+    {
+      "title": "Long-form internal drafting at speed",
+      "source": "GPT-5.3 Instant update",
+      "detail": "Use the larger output ceiling for faster first drafts of policy summaries, operating notes, and structured internal documents."
+    }
+  ],
+  "methodology": {
+    "headline": "Official-source, trailing-7-day selection",
+    "body": "This briefing retains only official OpenAI product and capability updates published or materially updated between March 2 and March 8, 2026 inclusive. Supporting documents and policy-only items were logged but excluded from the main set."
+  },
+  "cta": {
+    "headline": "Move from generic experimentation to focused deployment.",
+    "body": "The strongest next step is a compact pilot portfolio: one spreadsheet workflow, one long-form drafting workflow, and one internal tools or automation workflow."
+  }
+}

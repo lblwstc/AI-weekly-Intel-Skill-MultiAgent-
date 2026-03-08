@@ -1,0 +1,93 @@
+{
+  "generated_at": "2026-03-08 00:38 JST",
+  "window": {
+    "timezone": "Asia/Tokyo",
+    "start_date": "2026-03-02",
+    "end_date": "2026-03-08",
+    "selection_rule": "Official OpenAI product or capability updates published or materially updated between March 2 and March 8, 2026 inclusive."
+  },
+  "items": [
+    {
+      "id": "gpt-5-4-platform-release",
+      "title": "Introducing GPT-5.4",
+      "published_at": "2026-03-05",
+      "source_name": "OpenAI",
+      "source_type": "product announcement",
+      "source_url": "https://openai.com/index/introducing-gpt-5-4/",
+      "supporting_urls": [],
+      "category": "model-release",
+      "factual_summary": "OpenAI introduced GPT-5.4 as its latest flagship model and made it available in the API, Codex, and ChatGPT. The announcement highlights improved coding and agentic-task performance, a 1M-token context window, and stronger results on computer-use and software engineering evaluations.",
+      "key_technical_capability": "A frontier general-purpose model with long-context reasoning, improved coding performance, and better agentic task execution.",
+      "practical_example": "A finance or operations team can feed a large policy pack, several spreadsheets, and a draft plan into one workflow and have the model reason across the full set without heavy manual chunking.",
+      "why_this_matters": "This raises the ceiling for enterprise-grade automation because the same release improves both the core model and the coding or agentic surfaces that teams use to build internal tools.",
+      "business_value_for_office_workers": "Knowledge workers get more reliable drafting, analysis, and workflow automation on longer and messier real-world business inputs.",
+      "confidence": "high"
+    },
+    {
+      "id": "chatgpt-excel-financial-integrations",
+      "title": "Introducing ChatGPT for Excel and new financial data integrations",
+      "published_at": "2026-03-05",
+      "source_name": "OpenAI",
+      "source_type": "product announcement",
+      "source_url": "https://openai.com/index/chatgpt-for-excel/",
+      "supporting_urls": [],
+      "category": "workflow-integration",
+      "factual_summary": "OpenAI launched ChatGPT for Excel in beta and announced new financial data integrations. The post positions ChatGPT as a spreadsheet-native assistant for analysis and reporting workflows while connecting to premium financial data sources such as FactSet and CapIQ.",
+      "key_technical_capability": "Spreadsheet-native AI assistance combined with access to external financial data integrations.",
+      "practical_example": "An FP&A analyst can summarize a workbook, generate narrative variance commentary, and pull connected market or company context without leaving Excel.",
+      "why_this_matters": "This moves AI closer to the tools finance and operations teams already use every day, lowering adoption friction and making the value easier to demonstrate to business stakeholders.",
+      "business_value_for_office_workers": "Office workers can produce cleaner spreadsheet analysis, faster commentary, and more complete business reports with less copy-paste between apps.",
+      "confidence": "high"
+    },
+    {
+      "id": "gpt-5-4-thinking-in-chatgpt",
+      "title": "GPT-5.4 Thinking in ChatGPT and model retirements",
+      "published_at": "2026-03-05",
+      "source_name": "OpenAI Help Center",
+      "source_type": "release notes",
+      "source_url": "https://help.openai.com/en/articles/9624314-model-release-notes",
+      "supporting_urls": [
+        "https://openai.com/index/introducing-gpt-5-4/"
+      ],
+      "category": "chatgpt-rollout",
+      "factual_summary": "OpenAI’s March 5 model release notes show GPT-5.4 became available in ChatGPT as GPT-5.4 Thinking. The same release-note section also documents model retirement and remapping changes around the GPT-5 lineup inside ChatGPT.",
+      "key_technical_capability": "User-facing access to the newest GPT-5.4 reasoning experience directly inside ChatGPT, alongside model lineup simplification.",
+      "practical_example": "A team already relying on ChatGPT for document drafting or planning gets the latest reasoning model without rebuilding its workflow or switching tools.",
+      "why_this_matters": "This is the operational rollout detail that determines whether business users can actually feel the platform-model upgrade in their daily ChatGPT work.",
+      "business_value_for_office_workers": "Teams get upgraded model quality inside an existing familiar interface, reducing change-management friction while improving day-to-day output quality.",
+      "confidence": "high"
+    },
+    {
+      "id": "codex-app-on-windows",
+      "title": "Codex app on Windows",
+      "published_at": "2026-03-04",
+      "source_name": "OpenAI Help Center",
+      "source_type": "release notes",
+      "source_url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "supporting_urls": [],
+      "category": "desktop-expansion",
+      "factual_summary": "ChatGPT release notes show that the Codex app became available on Windows on March 4. That expands local AI coding workflows to a broader enterprise device footprint.",
+      "key_technical_capability": "Cross-platform availability for OpenAI’s coding agent surface on Windows devices.",
+      "practical_example": "A Windows-based engineering or analytics team can run the same local AI-assisted code, automation, and repo workflows without relying on a Mac-only setup.",
+      "why_this_matters": "Platform availability is a practical adoption lever inside companies, where Windows remains the default machine for many technical and semi-technical users.",
+      "business_value_for_office_workers": "IT, analytics, and engineering-adjacent teams on Windows can use Codex workflows more easily, which reduces rollout friction for internal automation demos and pilot programs.",
+      "confidence": "high"
+    },
+    {
+      "id": "gpt-5-3-instant-update",
+      "title": "GPT-5.3 Instant updates in ChatGPT",
+      "published_at": "2026-03-03",
+      "source_name": "OpenAI Help Center",
+      "source_type": "release notes",
+      "source_url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "supporting_urls": [],
+      "category": "enterprise-model-update",
+      "factual_summary": "ChatGPT release notes show a March 3 update to GPT-5.3 Instant for Enterprise and Edu, including larger output ceilings and improved context following. The change sharpens the fast model tier that supports day-to-day work.",
+      "key_technical_capability": "A refreshed fast-response model tier with stronger long-form output and better adherence to context.",
+      "practical_example": "A sales operations user can use the faster model for quick email rewrites, longer status updates, and CRM note cleanup without waiting on a heavier reasoning model.",
+      "why_this_matters": "Not every enterprise task needs the heaviest model; improvements to the fast tier make high-frequency AI use more practical and less disruptive.",
+      "business_value_for_office_workers": "Routine drafting, summarization, and lookup tasks can stay fast enough to fit naturally into everyday desk work, which matters for real adoption volume.",
+      "confidence": "medium-high"
+    }
+  ]
+}

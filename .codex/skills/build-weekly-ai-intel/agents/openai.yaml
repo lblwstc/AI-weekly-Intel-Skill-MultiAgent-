@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Weekly AI Intel"
+  short_description: "Research, brief, app, and demo workflow"
+  default_prompt: "Use $build-weekly-ai-intel to research the trailing 7 days of official OpenAI updates, produce the weekly brief, build the portal, and record the demo."

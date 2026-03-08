@@ -1,0 +1,11 @@
+.DS_Store
+.env
+.env.*
+
+automation/demo/
+automation/node_modules/
+demo/.video-temp/
+demo/*.webm
+webapp/.next/
+webapp/.git.bak/
+webapp/node_modules/
